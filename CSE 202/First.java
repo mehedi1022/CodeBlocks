@@ -4,19 +4,20 @@ public class First {
 
     public static void main(String[] args) {
 
-        int num1 = 12;
-        double num2 = 5;
-
-        // addition
-        // System.out.println(num1 + num2);
-        // subtraction
-        // System.out.println(num1 - num2);
-        // multiplication
-        // System.out.println(num1 * num2);
-        // division
-        // System.out.println(num1 / num2);
-        // remainder (modulo / modulus)
-        // System.out.println(num1 % num2);
-        System.out.println(num1 % num2);
+        int num1, num2;
+        num1 = 12;
+        num2 = 15;
+        // equal to
+        System.out.println(num1 == num2);
+        // not equal to
+        System.out.println(num1 != num2);
+        //is greater than 
+        System.out.println(num1 > num2);
+        // is less than
+        System.out.println(num1 < num2);
+        //is greater than or equal to 
+        System.out.println(num1 >= num2);
+        //is less than or equal to 
+        System.out.println(num1 <= num2);
     }
 }
