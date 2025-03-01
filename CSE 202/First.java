@@ -3,22 +3,21 @@ import java.util.Scanner;
 public class First {
 
     public static void main(String[] args) {
-        // true or false using age
-        // int age = 25;
+    //    int score = 0;
+    //    int turns = 10;
 
-        // //age >= 18
-        // //age <= 40
+    //    score++;
+    //    turns--;
 
-        // System.out.println(age >= 18 && age <= 40);
+    //    System.out.println(score);
+    //    System.out.println(turns);
+ 
+    int num = 55;   
+    // System.out.println(--num);
+    // System.out.println(num);
 
-        boolean isStudent = false;
-        boolean isLibraryMemeber = false;
 
-        // System.out.println(isStudent || isLibraryMemeber);
-        System.out.println(!isStudent || isLibraryMemeber);
-        // System.out.println(isStudent);
-
-        // System.out.println(!isStudent);
-
+    num ++;
+    System.out.println(num);
     }
 }
