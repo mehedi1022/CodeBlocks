@@ -3,21 +3,18 @@ import java.util.Scanner;
 public class First {
 
     public static void main(String[] args) {
-   
-        // char percentSign = '%';
-        // System.out.println(percentSign);
+        String name = "farhan"; //%s
+        String country = "Bangladesh";
+        int age = 26; //%d
+        String company = "freeCodeCamp";
+        double gpa = 3.8; //%f
+        char percentSign = '%';  //%c
+        boolean amTruth = false; //%b
 
-        // String name = "Farhan Hasin Chowdhury";
-        // String name  = new String("Farhan Hasin Chowdhury");
-        // System.out.println(name);
+        // String formattedString = String.format("My name  is %s. I am from %s. I am %d years old. I work for %s. My GPA %f. I have 100%c. This are all %b claims", name, country, age, company, gpa, percentSign, amTruth);
+        // System.out.println("Hello Eveyone. I am " + name + ". I am from " + country + ". I am " + age + " I work in " + company);
 
-        String s1 = "abc";
-        String s2 = "abc";
+        System.out.println(String.format("My name  is %s. I am from %s. I am %d years old. I work for %s. My GPA %f. I have 100%c. This are all %b claims", name, country, age, company, gpa, percentSign, amTruth));
 
-        String objString1 = new String("xyz");
-        String objString2 = new String("xyz");
-
-        System.out.println(s1 == s2);
-        System.out.println(objString1 == objString2);
     }
 }
