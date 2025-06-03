@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int x, y;
-    long long p, q, r;
+    
+    long long x, y, p, q, r;
     cin >> x >> y;
     p = x + y;
     q = x * y;

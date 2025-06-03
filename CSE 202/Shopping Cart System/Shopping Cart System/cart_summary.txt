@@ -1,0 +1,4 @@
+[Grocery] 123, alu, Rs.20.0, 1.5kg
+[Electronic] 131, telephone, Rs.1200.0, Warranty: 12 months
+[Clothing] 151, undwerwear, Rs.120.0, Size: xl
+Total: Rs.1340.0
