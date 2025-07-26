@@ -1,5 +1,5 @@
-class Solution {
-public:
+#include <bits/stdc++.h>
+using namespace std;
     bool isPalindrome(int x) {
         int rem, org;
         long long rev = 0;
@@ -20,4 +20,9 @@ public:
         }
         
     }
-};
+    int main(){
+    int x;
+    cin >> x;
+    cout << isPalindrome(x);
+        return 0;
+    }
